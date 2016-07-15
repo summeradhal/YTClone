@@ -1,0 +1,173 @@
+img{
+	max-width: 100%;
+}
+
+#youtube-wrapper{
+	/* Set a gutter on both sides of the wrapper */
+    margin: auto 40px;
+}
+
+#nav{
+	 border-bottom: 1px solid black;
+	 padding: 20px 0px;
+}
+
+#header{
+	/* Set the height */
+    height: 50px;
+    /* Set the line-height SO THAT our text is vertically centerd */
+    line-height: 50px;
+    /* Set a border for the bottom line */
+    border-bottom: 1px solid black;	
+}
+
+#header h1{
+	font-size: 20px;
+}
+
+#logo, #search-nav, #account-container{
+	display: inline-block;
+}
+
+#logo{
+	width: 20%;
+}
+
+#logo img{
+	max-width: 150px;
+}
+
+#search-nav{
+	width: 50%;
+}
+
+#search-container{
+	margin-bottom: 15px;
+}
+
+#search-nav input[type=text]{
+	width: 200px;
+}
+
+#nav-bar ul li{
+	/* Put all li's on the same line */
+	display: inline-block;
+	/* Put a line on the right side */
+	border-right: 1px solid black;
+	/* Get some space between the li and the border */
+	padding-right: 20px;
+	padding-left: 10px;
+	/* Add a line underneath each li */
+	text-decoration: underline;
+}
+
+/* Target the last element only! */
+#nav-bar ul li:last-child{
+	border: none;
+}
+
+/* #search-nav .search-text{
+	width: 80%;
+}
+#search-nav .button-text{
+	width: 18%;
+}
+ */
+
+#account-container{
+	width: 18%;
+	text-align: right;
+}
+
+#account-links{
+    margin-top: 20px;	
+}
+
+#account-links ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#account-links ul li:last-child{
+	padding: 0px;
+}
+
+#content{
+	margin-top: 20px;
+}
+
+#featured-wrapper{
+	background-color: #cacaca;
+	padding: 0px 15px;
+	width: 70%;
+}
+
+#featured-wrapper h2{
+	font-size: 18px;
+	/* margin on top/bottom, leave left/right alone */
+	margin: 10px auto;
+}
+
+#featured-wrapper, #featured, #secondary-videos{
+	/* Apply inline-block to all our content divs */
+	display: inline-block;
+}
+
+.small-video{
+	border: 1px solid black;
+}
+
+.small-video, .small-video-text{
+	display: inline-block;
+
+
+}
+
+#right-rail-ad{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+
+}
+
+#more-videos{
+	margin-top: 20px;
+	background-color: #cacaca;	
+	padding: 10px;
+	border:1px solid black;
+}
+
+.more-video-item{
+	display: inline-block;
+	width: 24%;	
+	border:1px solid black;
+
+}
+
+.more-video-item img{
+	border:1px solid black;
+}
+
+
+@media screen and (min-width:501px) and (max-width:768px){
+
+	.more-video-item {
+		width:48%;
+		
+	}
+}
+@media screen and (max-width:500px){
+
+	.more-video-item {
+		width:90%;
+		margin:auto;
+	}
+
+}
+
+
+
+.more-video-item img{
+	border:1px solid black;
+
+}
